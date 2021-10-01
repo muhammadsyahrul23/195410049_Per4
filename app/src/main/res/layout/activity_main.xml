@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ultah"
+    android:foregroundTint="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginBottom="1dp"
+        android:allowUndo="false"
+        android:autoText="false"
+        android:fontFamily="casual"
+        android:text="Happy Birthday, Syahrul"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="21dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="198dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="488dp"
+        android:fontFamily="cursive"
+        android:text="23 Juli 2000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFC107"
+        android:textSize="29sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="134dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="139dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/merah" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="232dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="43dp"
+        android:backgroundTint="#F89090"
+        android:text="@muhmmadsyhrul_"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        app:iconTint="#FF5353"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
